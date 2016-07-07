@@ -55,6 +55,11 @@ If utility can`t detect link type and IP-header offset, please do the following 
 3. Calculate bytes before start signature (<offset>)
 4. Execute 'sigtopcap -o <filename> <offset>'
 
+If visual studio can`t find include files, please do tho following steps:
+1. Open sigtopcap project properties.
+2. Open `configuration properties->VC++ Directories`
+3. Add `Include Directories` value: path of sigtopcap\include folder.
+
 AUTHOR
 ------
 
